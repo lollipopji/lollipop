@@ -2,6 +2,7 @@ This is my first time to use github.
 (1)create a new user in the github--create a new repository
 (2)copy the https://... then git clone https://...
 (3)After you change the files ,use git add * to add to the buffer.
+(3-1)I change it in the master.
 (4)Then you should git commit -a -m "hello". to submit the change.
 (5)After that you should push the changes to the web. git push origin master.
 (6)Now you can enjoy it!Have fun.
