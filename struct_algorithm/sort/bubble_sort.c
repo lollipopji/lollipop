@@ -34,6 +34,10 @@ void bubble_sort(int arry[],int len)
                 temp=arry[j];
                 arry[j]=arry[j+1];
                 arry[j+1]=temp;
+                //不使用中间变量进行两个数据的交换
+                //arry[i]=arry[i]^arry[j];
+                //arry[j]=arry[i]^arry[j];
+                //arry[i]=arry[j]^arry[i];
                 exchange_flag=1;
             }
         }

@@ -24,7 +24,7 @@ int main()
 void move_reduce_insert_sort(int arry[],int len)
 {
     int i,j,temp,high,low,mid;
-    int a_temp[len];
+    int a_temp[len];//需要额外的辅助数组来存放相应的整个数组。
     int first,final;
     a_temp[0]=arry[0];
     first=final=0;
