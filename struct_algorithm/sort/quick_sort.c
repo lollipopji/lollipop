@@ -30,7 +30,7 @@ void quick_sort(int arry[],int low,int high)
     pivot_pos=low;
     while(low<high)
     {
-        while(arry[high]>=pivot_key)
+        while(low<high&&arry[high]>=pivot_key)
         {
             high--;
         }
